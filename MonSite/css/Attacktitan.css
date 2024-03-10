@@ -1,0 +1,62 @@
+body {
+  background-image: url("../Images/attackontitanbackground.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textdebutO {
+  font-size: 8rem;
+  -webkit-text-stroke: 2px #ffffff;
+  position: absolute;
+  margin-top: 6rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #015c36;
+}
+#menuVertical {
+  list-style-type: none;
+  width: 200px;
+}
+.menuVertical {
+  padding: 0px;
+  border-style: ridge;
+  border-radius: 0.5rem;
+  border-color: #e6d3a7;
+}
+.menuVertical a:hover {
+  background-color: #e6d3a7;
+
+  color: black;
+}
+.menuVertical a {
+  display: block;
+  padding-right: 5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: #e6d3a7;
+}
+.histoireAni {
+  margin-top: 20rem;
+  margin-left: 15%;
+  margin-right: 9%;
+}
+#menuHorizontal {
+  border-style: ridge;
+
+  border-color: #e6d3a7;
+}
+h2 {
+  text-align: center;
+}
+
+.liste {
+  clear: both;
+}
+footer {
+  border-color: rgb(48, 164, 214);
+  border-width: 0.5rem;
+  background-color: #165668;
+  text-align: center;
+}

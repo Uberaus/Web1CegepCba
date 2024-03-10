@@ -1,0 +1,66 @@
+body {
+  background-image: url("../Images/wallpaperdemonslayer.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textdebutO {
+  font-size: 10rem;
+  -webkit-text-stroke: 3px #ffffff;
+  position: absolute;
+  margin-top: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #251774;
+}
+#menuVertical {
+  list-style-type: none;
+  width: 200px;
+}
+.menuVertical {
+  padding: 0px;
+  border-style: ridge;
+  border-radius: 0.5rem;
+  border-color: #4c4a45;
+  background-color: #ababab;
+}
+.menuVertical a:hover {
+  background-color: #7e7c76;
+
+  color: black;
+}
+.menuVertical a {
+  display: block;
+  padding-right: 5rem;
+  padding-left: 4rem;
+  text-decoration: none;
+  color: #000000;
+}
+.histoireAni {
+  margin-left: 15%;
+  margin-right: 9%;
+}
+#menuHorizontal {
+  border-style: ridge;
+
+  border-color: #f3f3f3;
+}
+#menuHorizontal {
+  border-style: ridge;
+  background-color: #000000;
+  border-color: #5217dd;
+}
+.modifImages {
+  border-color: #5217dd;
+}
+.menuHorizontal a:hover {
+  background-color: #7e7c76;
+}
+.histoireAni {
+  border-color: grey;
+}
+footer {
+  text-align: center;
+}

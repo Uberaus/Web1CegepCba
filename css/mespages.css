@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("../Images/back1.jfif");
+
+  background-color: #173b4b;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url("../Images/backhead.jpg");
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header > div {
+  display: inline;
+  padding-left: 8rem;
+  padding-right: 1rem;
+}
+
+nav li a:hover {
+  background-color: #e6d3a7;
+  color: black;
+}
+a {
+  display: inline-block;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: #e6d3a7;
+}
+.textdebut {
+  font-size: 12rem;
+  -webkit-text-stroke: 3px #2a7d31;
+  position: relative;
+  margin-top: 10rem;
+  margin-left: 23%;
+  margin-bottom: -3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+#menuHorizontal {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 1rem;
+  background-color: #0e5f0c;
+  background: #0e5f0c;
+  border-style: ridge;
+  border-color: #e6d3a7;
+}
+#menuVertical {
+  margin-left: 0rem;
+}
+.menuHorizontal {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-left: -21rem;
+  padding-right: 34rem;
+  padding-left: 2.5rem;
+}
+.menuVertical {
+  float: left;
+  top: 0;
+  position: sticky;
+  display: block;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  margin-left: 0rem;
+  padding-right: 4rem;
+  padding-left: 1.5rem;
+  background: #3a7563;
+}
+.menuVertical li {
+  padding: 1rem;
+}
+.clear {
+  clear: both;
+}
+.basdepage {
+  background-image: url(../Images/footacceuil.jpg);
+  background-size: contain;
+
+  background-color: #3a7563;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #0e5f0c;
+  padding: 4rem;
+}
+.histoireAni {
+  border-style: ridge;
+  border-color: #e6d3a7;
+  border-width: 0.75rem;
+  color: #cedcc3;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 1.5%;
+  font-size: 2rem;
+  text-align: justify;
+  margin-top: 1.5rem;
+
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.premierPara {
+  border-style: ridge;
+  border-color: #e6d3a7;
+  border-width: 0.75rem;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 1.5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 6rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e6d3a7;
+  overflow: auto;
+}
+
+.imageacceuil {
+  float: left;
+  padding-right: 2rem;
+  text-align: left;
+
+  text-decoration: underline;
+  clear: both;
+}
+
+.modifImages {
+  display: inline;
+
+  border-style: ridge;
+  border-radius: 2rem;
+  border-width: 0.7rem;
+  border-color: #2a7d31;
+}
+#naruto {
+  padding-right: 0;
+  padding-left: 6.5rem;
+}
+#home {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 22.75rem;
+  left: 0.5rem;
+  border-style: solid;
+  border-color: #e6d3a7;
+  height: 50px;
+  width: 50px;
+}
+input[type="text"] {
+  width: 100%;
+  display: block;
+  border-color: #f1af99;
+  border-width: 0.15rem;
+}
+input[type="email"] {
+  border-color: #f1af99;
+  border-width: 0.15rem;
+}
+textarea {
+  border-color: #f1af99;
+  border-width: 0.15rem;
+}
+input[type="submit"] {
+  background-color: #f1af99;
+  height: 2rem;
+  width: 10rem;
+  border-color: black;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+input[type="reset"] {
+  margin-left: 4rem;
+  background-color: #f1af99;
+  height: 2rem;
+  width: 10rem;
+  border-color: black;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+input[type="reset"]:hover {
+  background-color: black;
+  color: #f1af99;
+}
+input[type="submit"]:hover {
+  background-color: black;
+  color: #f1af99;
+}
+.formulaire {
+  background-image: url(../Images/anya.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 26rem;
+  background-color: #f8f8f8;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  border-color: #bbbbbb;
+  border-width: 1rem;
+  border-style: ridge;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#textformlaire {
+  height: 300px;
+  position: absolute;
+
+  padding-right: 10rem;
+  padding-left: 20rem;
+  margin-left: 30rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  color: #969494;
+  font-size: 3rem;
+  text-align: Left;
+
+  overflow: auto;
+}
+
+footer {
+  margin-top: 5rem;
+  border-style: ridge;
+  border-color: #e6d3a7;
+  border-width: 0.25rem;
+}
